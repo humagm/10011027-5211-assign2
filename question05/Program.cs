@@ -10,7 +10,9 @@ namespace question05
 
             var number =Int32.Parse(Console.ReadLine());
 
+            
             for(int a = 0; a <= 9; a++) {
+                
                 Console.WriteLine($"{a} x {number} = {a / number}");
                 
                 
