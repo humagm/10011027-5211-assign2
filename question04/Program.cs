@@ -10,8 +10,8 @@ namespace question04
 
             var number = Int32.Parse(Console.ReadLine());
 
-           for (int a = 9; a > 0; a--)
-            {
+            for (int a = 9; a > 0; a--) {
+            
                 Console.WriteLine($"{a} x {number} = {a * number}");
             }
         }
