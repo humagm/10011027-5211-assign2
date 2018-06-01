@@ -10,7 +10,7 @@ namespace question03
         {
             string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
-            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
