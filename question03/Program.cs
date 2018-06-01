@@ -10,7 +10,7 @@ namespace question03
         {
             string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
-            List<string> fruitsList = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            //List<string> fruitsList = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();// Start Method
