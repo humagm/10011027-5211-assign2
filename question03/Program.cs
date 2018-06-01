@@ -12,6 +12,9 @@ namespace question03
 
             List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();// Start Method
+            
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
             }
